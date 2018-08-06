@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+}
+
+.brand{
+    border-bottom: 3px solid black;
+}
+
+.brand-header{
+  font-weight: normal;
+  font-size: 60px;
+  text-align: center;
+}
+
+.row{
+    display: flex;
+  width: 100%;
+  align-items: stretch;
+  border-bottom: 3px solid black;
+  border-left: 1px solid black;
+}
+
+.article-title{
+    font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.image{
+    width: 90%;
+}
+
+.story {
+    border-right: 1px solid black;
+    padding: 0 10px;
+  }
+  
+  .quarter {
+    width: 25%;
+  }
+
+  .tres-quartos{
+      width: 75%;
+  }
+  .lista{
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+  }
+
+.section-link {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    color: #666;
+  }
+
+  .seccion{
+      display: flex;
+      align-items: center;
+      flex: 1;
+  }
+  .local{
+      background-color: crimson;
+  }
+
+  .politics{
+      background-color: peru;
+  }
+
+  .deportes{
+      background-color: brown;
+  }
+
+  .tecnology{
+      background-color: purple;
+  }
+
+  .opinion{
+      background-color: aquamarine;
+  }
